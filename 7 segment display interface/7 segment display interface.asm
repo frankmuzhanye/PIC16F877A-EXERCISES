@@ -2,9 +2,9 @@
 _main:
 
 ;7 segment display interface.c,5 :: 		void main() {
-;7 segment display interface.c,6 :: 		trisb=0;
+;7 segment display interface.c,6 :: 		trisb=0x00; //declare b pins as output
 	CLRF       TRISB+0
-;7 segment display interface.c,7 :: 		portb=0;
+;7 segment display interface.c,7 :: 		portb=0x00; //initialise b pins
 	CLRF       PORTB+0
 ;7 segment display interface.c,9 :: 		while(1){
 L_main0:
