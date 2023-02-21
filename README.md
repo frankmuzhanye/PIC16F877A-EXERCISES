@@ -1,4 +1,4 @@
-# PIC16F877A-PROJECTS
+# PIC16F877A-EXERCISES
 
 This is a Compilation of all the projects and simulation files that I did using the microcontroller, PIC16F877A, with the the use of software's, Proteus v8 and mikroC.
 
